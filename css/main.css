@@ -1,0 +1,37 @@
+Flash Info*************************/
+#flashinfo blockquote {
+    position: absolute;
+    opacity: 0;
+}
+
+#flashinfo blockquote {
+    animation: rotateflashinfo 24s ease-in 0s infinite;
+}
+
+#flashinfo blockquote:nth-child(2) {
+    animation-delay: 6s;
+}
+
+#flashinfo blockquote:nth-child(3) {
+    animation-delay: 12s;
+}
+
+#flashinfo blockquote:nth-child(4) {
+    animation-delay: 18s;
+}
+#flashinfo blockquote:nth-child(5) {
+    animation-delay: 24s;
+}
+#flashinfo blockquote:nth-child(6) {
+    animation-delay: 30s;
+}
+
+@keyframes rotateflashinfo {
+    0%   { opacity: 0; }
+    4%   { opacity: 1; }
+    21%  { opacity: 1; }
+    25%  { opacity: 0; }
+    100% { opacity: 0; }
+}
+/**========================================>>>>>>>>>>>>>*****
+Fin Flash Info*************************/
